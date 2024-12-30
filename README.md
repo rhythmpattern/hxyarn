@@ -1,6 +1,9 @@
 # hxyarn
 
-A Haxe port of [Yarn Spinner](https://github.com/YarnSpinnerTool/YarnSpinner)
+A Haxe port of [https://github.com/cxsquared/hxyarn.git)
+
+CHANGES:
+Reads files in using openfl.utils instead of sys.io.
 
 This is currently a work in progress though the major functionality has been implemented. I've got most of V2.1 implemented...probably...
 

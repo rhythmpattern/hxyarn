@@ -1,4 +1,7 @@
 -cp tests
 -cp src
+
+-lib openfl
+
 -main tests.Main
 -hl bin/test.hl

@@ -13,7 +13,7 @@ class CompilationJob {
 
 		for (file in files) {
 			#if sys
-			fileList.push(new FileInfo(file, sys.io.File.getContent(file)));
+			fileList.push(new FileInfo(file, openfl.utils.Assets.getText(file)));
 			#else
 			throw "Not supported on JS";
 			#end
