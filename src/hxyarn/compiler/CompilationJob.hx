@@ -12,11 +12,7 @@ class CompilationJob {
 		var fileList = new Array<FileInfo>();
 
 		for (file in files) {
-			#if sys
 			fileList.push(new FileInfo(file, openfl.utils.Assets.getText(file)));
-			#else
-			throw "Not supported on JS";
-			#end
 		}
 
 		var job = new CompilationJob();
